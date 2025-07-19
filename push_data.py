@@ -22,7 +22,7 @@ class NetworkDataExtract():
         try:
             pass
         except Exception as e:
-            raise NetworkSecurityException(f"Error inserting data: {e}")    
+            raise NetworksecurityException(f"Error inserting data: {e}")    
         
     def cv_to_json_converter(self, cv_file_path):
         try:
@@ -51,7 +51,7 @@ class NetworkDataExtract():
 
             return(len(self.records))
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise NetworksecurityException(e,sys)
         
 
         
