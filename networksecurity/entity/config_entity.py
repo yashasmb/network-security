@@ -4,13 +4,13 @@ from networksecurity.constants import training_pipeline
 
 
 
-print(f"Training Pipeline Name: {training_pipeline.PIPELINE_NAME}"
-      f"\nArtifact Directory: {training_pipeline.ARTIFACT_DIR}"
-      f"\nFile Name: {training_pipeline.FILE_NAME}"
-      f"\nTarget Column: {training_pipeline.TARGET_COLUMN}"
-      f"\nTrain File Name: {training_pipeline.TRAIN_FILE_NAME}"
-      f"\nTest File Name: {training_pipeline.TEST_FILE_NAME}"
-)
+# print(f"Training Pipeline Name: {training_pipeline.PIPELINE_NAME}"
+#       f"\nArtifact Directory: {training_pipeline.ARTIFACT_DIR}"
+#       f"\nFile Name: {training_pipeline.FILE_NAME}"
+#       f"\nTarget Column: {training_pipeline.TARGET_COLUMN}"
+#       f"\nTrain File Name: {training_pipeline.TRAIN_FILE_NAME}"
+#       f"\nTest File Name: {training_pipeline.TEST_FILE_NAME}"
+# )
 
 
 class TrainingPipelineConfig:

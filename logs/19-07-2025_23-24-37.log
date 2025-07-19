@@ -1,0 +1,13 @@
+[2025-07-19 23:24:37,350] 12 root - INFO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Network Security Project started. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2025-07-19 23:24:37,350] 14 root - INFO Training Pipeline Config: <networksecurity.entity.config_entity.TrainingPipelineConfig object at 0x0000016DE1A53E20>
+[2025-07-19 23:24:37,350] 25 root - INFO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion log started. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2025-07-19 23:24:37,350] 17 root - INFO Data Ingestion Config: <networksecurity.entity.config_entity.DataIngestionConfig object at 0x0000016DE1A53D30>
+[2025-07-19 23:24:37,350] 18 root - INFO initializing data ingestion...
+[2025-07-19 23:24:37,350] 94 root - INFO Initializing data ingestion process - calling export_data_as_dataframe method
+[2025-07-19 23:24:37,350] 37 root - INFO Exporting data as DataFrame
+[2025-07-19 23:24:43,344] 96 root - INFO Data exported successfully as DataFrame
+[2025-07-19 23:24:43,344] 62 root - INFO Exporting data into feature store
+[2025-07-19 23:24:43,416] 76 root - INFO Splitting data into train and test sets
+[2025-07-19 23:24:43,416] 78 root - INFO Train set shape: (8844, 31), Test set shape: (2211, 31)
+[2025-07-19 23:24:43,416] 82 root - INFO Saving train and test sets to Artifacts\data_ingestion\ingestion\train.csv and Artifacts\data_ingestion\ingestion\test.csv
+[2025-07-19 23:24:43,469] 86 root - INFO Data split and saved successfully

@@ -4,3 +4,5 @@ pandas
 numpy
 pymongo
 certifi
+pymongo<5.0,>=4.0
+scikit-learn
