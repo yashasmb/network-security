@@ -1,0 +1,17 @@
+[2025-07-29 00:30:45,799] 12 root - INFO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Network Security Project started. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2025-07-29 00:30:45,800] 14 root - INFO Training Pipeline Config: <networksecurity.entity.config_entity.TrainingPipelineConfig object at 0x000002D539503E20>
+[2025-07-29 00:30:45,800] 25 root - INFO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion log started. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2025-07-29 00:30:45,800] 17 root - INFO Data Ingestion Config: <networksecurity.entity.config_entity.DataIngestionConfig object at 0x000002D539503D30>
+[2025-07-29 00:30:45,800] 18 root - INFO initializing data ingestion...
+[2025-07-29 00:30:45,800] 94 root - INFO Initializing data ingestion process - calling export_data_as_dataframe method
+[2025-07-29 00:30:45,800] 37 root - INFO Exporting data as DataFrame
+[2025-07-29 00:30:49,271] 96 root - INFO Data exported successfully as DataFrame
+[2025-07-29 00:30:49,271] 62 root - INFO Exporting data into feature store
+[2025-07-29 00:30:49,307] 76 root - INFO Splitting data into train and test sets
+[2025-07-29 00:30:49,309] 78 root - INFO Train set shape: (8844, 31), Test set shape: (2211, 31)
+[2025-07-29 00:30:49,309] 82 root - INFO Saving train and test sets to Artifacts\29-07-2025_00-30-45\ingestion\train.csv and Artifacts\29-07-2025_00-30-45\ingestion\test.csv
+[2025-07-29 00:30:49,326] 86 root - INFO Data split and saved successfully
+[2025-07-29 00:30:49,326] 100 root - INFO Data split into train and test sets successfully
+[2025-07-29 00:30:49,326] 105 root - INFO Data Ingestion Artifact: DataIngestionArtifact(train_file_path='Artifacts\\29-07-2025_00-30-45\\ingestion\\train.csv', test_file_path='Artifacts\\29-07-2025_00-30-45\\ingestion\\test.csv')
+[2025-07-29 00:30:49,326] 20 root - INFO Data Ingestion Artifact: DataIngestionArtifact(train_file_path='Artifacts\\29-07-2025_00-30-45\\ingestion\\train.csv', test_file_path='Artifacts\\29-07-2025_00-30-45\\ingestion\\test.csv')
+[2025-07-29 00:30:49,326] 21 root - INFO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Network Security Project completed. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
